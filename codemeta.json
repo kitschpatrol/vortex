@@ -1,0 +1,57 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "codeRepository": "https://github.com/kitschpatrol/vortex",
+  "dateCreated": "2014-05-11",
+  "dateModified": "2026-09-23",
+  "description": "A high-RPM volumetric display inspired by natural cyclonic phenomena.",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "sculpture",
+    "volumetric-display",
+    "persistence-of-vision",
+    "led",
+    "teensy",
+    "arduino",
+    "ios"
+  ],
+  "applicationCategory": "Art",
+  "developmentStatus": "https://www.repostatus.org/#inactive",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Eric Mika",
+      "email": "eric@ericmika.com",
+      "url": "https://ericmika.com"
+    },
+    {
+      "@type": "Person",
+      "name": "Michael Edgcumbe",
+      "email": "voxels@gmail.com",
+      "url": "https://voxels.github.io/"
+    }
+  ],
+  "issueTracker": "https://github.com/kitschpatrol/vortex/issues",
+  "programmingLanguage": ["C++", "Objective-C", "Processing"],
+  "runtimePlatform": ["Arduino 1.05", "Teensyduino 1.18", "iOS"],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Encoder",
+      "version": "1.2",
+      "url": "https://www.pjrc.com/teensy/td_libs_Encoder.html"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Servo",
+      "url": "https://www.arduino.cc/reference/en/libraries/servo/"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "FastLED",
+      "url": "https://github.com/FastLED/FastLED"
+    }
+  ],
+  "readme": "https://github.com/kitschpatrol/vortex/blob/main/README.md",
+  "name": "Vortex"
+}
